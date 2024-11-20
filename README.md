@@ -2,6 +2,10 @@
 
 Este script de Python genera un PDF con etiquetas que incluyen códigos de barras Code 128 y texto personalizable.  Es ideal para generar etiquetas para inventarios, productos, etc.
 
+## Ejemplo
+
+![Ejemplo de etiquetas generadas](https://raw.githubusercontent.com/clementefeo/etiquetas/main/Ejemplo.png)
+
 ## Características
 
 * Genera códigos de barras Code 128.
