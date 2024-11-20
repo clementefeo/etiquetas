@@ -29,7 +29,7 @@ def generar_etiqueta(c, codigo, texto, titulo, x, y, ancho_etiqueta, alto_etique
         code = ean(codigo, writer=ImageWriter())
         code.save(filepath[:-4])
 
-        y_barcode = y + 2 * mm
+        y_barcode = y + 3 * mm
         c.drawImage(filepath, x, y_barcode, width=ancho_etiqueta, height=alto_etiqueta * 0.7, preserveAspectRatio=True)
 
         c.setFont("Helvetica", 8)
